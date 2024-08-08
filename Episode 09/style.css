@@ -1,0 +1,151 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html body{
+    height: 100%;
+    width:100%
+}
+
+.header{
+    padding: 20px;
+    height: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid #c8c6c6;
+    /* background-color: #d2d2d2; */
+}
+
+.logo{
+    width: 150px;
+}
+
+.nav-itmes ul{
+    display: flex;
+    gap:10px;
+    list-style: none;
+}
+
+.nav-itmes ul li{
+    padding: 10px;
+    font-size: large;
+    margin: 15px;
+}
+
+.res-card{
+    margin: 20px;
+    height: auto;
+    width: 250px;
+    background-color: #f0f0f0;
+}
+
+.res-card:hover{
+    border: 1px solid #d4d3d3;
+    cursor: pointer;
+}
+
+.res-logo{
+    width: 100%;
+    padding: 5px;
+    height: 60%;
+    object-fit: cover;
+    /* object-position: center; */
+}
+
+.restname{
+   margin-top: 10px;
+   margin-left: 8px;
+    gap: 10px;
+} 
+
+ .restabout{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 15px;
+    padding: 0 10px;
+}
+
+.res-container{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+} 
+
+.fitler-btn{
+    padding: 10px 20px;
+    border-radius: 10px;
+    font-size:20px;
+    margin-left:10px;
+    border: 1px solid #a4a2a2
+}
+.filter{
+    display: flex;
+    gap: 30px;
+}
+
+.search-box{
+    margin-left: 10px;
+    padding: 10px 20px;
+    border-radius: 5px;
+   border-color:1px solid #d2cdcd;
+   font-size: 15px;
+}
+
+.btn-search{
+    padding: 10px 20px;
+    border-radius: 5px;
+    border-color:1px solid #d2cdcd;
+    font-size: 15px;
+}
+
+.fitler-btn:hover{
+    background-color: rgb(122, 189, 122);
+}
+
+.shimmer-cards{
+    margin: 20px;
+    height: 300px;
+    width: 250px;
+    background-color: #f0f0f0;
+}
+
+.Shimmer-container{
+    display: flex;
+    flex-wrap: wrap;
+    gap:5px;
+}
+
+.login-btn{
+    padding: 10px 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size:18px;
+    margin-left:10px;
+    border: 1px solid #a4a2a2
+ 
+}
+
+.menu{
+    margin: 30px;
+    line-height: 30px;
+}
+
+.about{
+    margin: 20px;
+    line-height: 40px;
+}
+
+.ab-user{
+    border: 1px solid black;
+    padding: 10px;
+}
+
+.childcomp{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+   
+}
