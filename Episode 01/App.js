@@ -2,7 +2,7 @@ import React from "react";
 import ReactDOM from "react-dom/client"
 
 const container = React.createElement(
-    'div',
+    'div', 
     { className: 'container', id: 'container' },
     [
       React.createElement('section', { key: 1 }, [
